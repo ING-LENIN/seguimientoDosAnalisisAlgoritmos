@@ -1,6 +1,5 @@
 import time
 import matplotlib.pyplot as plt
-from tabulate import tabulatecñea
 import bibtexparser
 
 # Importar funciones auxiliares
