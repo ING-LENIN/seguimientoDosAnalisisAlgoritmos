@@ -29,7 +29,7 @@ from sorting_algorithms.tree_sort import tree_sort
 from terminos import TERMS
 
 # Leer el archivo BibTeX utilizando la codificación UTF-8
-with open('todo_filtrado_final.bib', encoding='utf-8') as bibtex_file:
+with open('complete.bib', encoding='utf-8') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 
 # Filtrar entradas que tienen el campo 'abstract'
